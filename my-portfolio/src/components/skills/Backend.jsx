@@ -8,7 +8,7 @@ const Backend = () => {
     <div className='skills_box'>
       <div className='skills_group'>
           <div className='skills_data'>
-            <img src='./src/assets/tailwind.jpg' className='bx-badge-check w-6 h-6' />
+            <img src='./tailwind.jpg' className='bx-badge-check w-6 h-6' />
               <div>
                   <h3 className='skills_name'>Tailwind</h3>
                   <span className='skills_level'>Intermediate</span>
@@ -16,7 +16,7 @@ const Backend = () => {
           </div>
 
           <div className='skills_data'>
-          <img src='./src/assets/bootstap.jpg' className='bx-badge-check w-6 h-6' />
+          <img src='./bootstap.jpg' className='bx-badge-check w-6 h-6' />
               <div>
                   <h3 className='skills_name'>Bootstrap</h3>
                   <span className='skills_level'>Intermediate</span>
@@ -24,7 +24,7 @@ const Backend = () => {
           </div>
 
           <div className='skills_data'>
-          <img src='./src/assets/react.png' className='bx-badge-check w-6 h-6' />
+          <img src='./react.png' className='bx-badge-check w-6 h-6' />
               <div>
                   <h3 className='skills_name'>React</h3>
                   <span className='skills_level'>Intermediate</span>

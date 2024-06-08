@@ -10,8 +10,10 @@ const Data = () => {
       </h1>
       <h3 className='home_subtitle'>FRONTEND DEVELOPER</h3>
       <p className='home_description'>Hello!, My name is ADEMOLA IDRIS.
-       I am a highly motivated frontend developer with a strong enthusiasm for transforming ideas into captivating web experiences.
-        I embrace the philosophy of creating digital solutions that not only overcome but also provoke surprise. 
+       I am a highly motivated frontend developer with a strong enthusiasm 
+       for transforming ideas into captivating web experiences.
+        I embrace the philosophy of creating digital solutions 
+        that not only overcome but also provoke surprise. 
         I am here to bring ideas to life.</p>
       <a href='#contact' className='button button--flex flex items-center w-36'>
         Say Hello

@@ -8,7 +8,7 @@ const Frontend = () => {
       <div className='skills_box'>
         <div className='skills_group'>
             <div className='skills_data'>
-                <img src='./src/assets/html.png' className='bx-badge-check w-6 h-6' />
+                <img src='./html.png' className='bx-badge-check w-6 h-6' />
                 <div>
                     <h3 className='skills_name'>HTML</h3>
                     <span className='skills_level'>Advanced</span>
@@ -16,7 +16,7 @@ const Frontend = () => {
             </div>
 
             <div className='skills_data'>
-            <img src='./src/assets/css.png' className='bx-badge-check w-6 h-6' />
+            <img src='./css.png' className='bx-badge-check w-6 h-6' />
                 <div>
                     <h3 className='skills_name'>CSS</h3>
                     <span className='skills_level'>Advanced</span>
@@ -24,7 +24,7 @@ const Frontend = () => {
             </div>
 
             <div className='skills_data'>
-            <img src='./src/assets/javascript.png' className='bx-badge-check w-8 h-6' />
+            <img src='./javascript.png' className='bx-badge-check w-6 h-6' />
                 <div>
                     <h3 className='skills_name'>JavaScript</h3>
                     <span className='skills_level'>Intermediate</span>
