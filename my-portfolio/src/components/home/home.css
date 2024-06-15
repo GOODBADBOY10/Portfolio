@@ -59,7 +59,7 @@
 }
 
 .home_img {
-    background: url(./ademola.jpg);
+    /* background: url(./ademola.jpg); */
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
