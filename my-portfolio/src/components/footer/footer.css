@@ -69,4 +69,9 @@
 
 /* For small devices */
 @media screen and (max-width: 350px) { 
+    .footer_social-link {
+        padding: 0.25rem;
+        border-radius: 0.25rem;
+        font-size: 1rem;
+    }
 }
