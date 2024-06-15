@@ -70,6 +70,9 @@
 
 /* For small devices */
 @media screen and (max-width: 350px) { 
+    .skills_container {
+        grid-template-columns: 0.9fr;
+    }
     .skills_box {
         column-gap: 1.25rem;
     }

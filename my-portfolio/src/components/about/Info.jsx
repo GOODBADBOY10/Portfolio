@@ -8,7 +8,7 @@ const Info = () => {
       <div className='about_box'>
         <FaAward className='about_icon'/>
         <h3 className='about_title'>Experience</h3>
-        <span className='about_subtitle'>1 year</span>
+        <span className='about_subtitle'>1 year +</span>
       </div>
 
       <div className='about_box'>

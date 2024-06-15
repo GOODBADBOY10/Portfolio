@@ -153,12 +153,12 @@
 /* For small devices */
 @media screen and (max-width: 350px) {
     .services_container {
-        /* grid-template-columns: max-content; */
+        grid-template-columns: repeat(1, 118px);
         display: flex;
         flex-direction: column;
     } 
     .services_content {
-        padding-left: 2rem;
-        width: 70%;
+        padding-left: 3rem;
+        width: 90%;
     }
 }

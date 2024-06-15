@@ -95,7 +95,11 @@
 
 /* For small devices */
 @media screen and (max-width: 350px) { 
+    /* .about_container{
+        grid-template-columns: 1fr;
+        row-gap: 2.5rem;
+    } */
     .about_info {
-        grid-template-columns: repeat(2, 1fr);
+        grid-template-columns: repeat(1, 0.8fr);
     }
 }
