@@ -2,44 +2,49 @@
 /* Breakpoints */
 /* For large devices */
 @media screen and (max-width: 992px) {
-    .services_container {
+    .portfolio_container {
         grid-template-columns: repeat(3, 218px);
     }
 }
 
 /* For medium devices */
 @media screen and (max-width: 768px) {   
-    .services_container {
+    .portfolio_container {
         grid-template-columns: repeat(1, 1fr);
     }
-    .services_content {
+    .portfolio_content {
         padding: 3.5rem 0.5rem 1.25rem 1.5rem;
     }
-    .services_icon {
+    .portfolio_icon {
         font-size: 1.5rem;
     }
 }
 
 
 @media screen and (max-width: 576px) {   
-    .services_modal-content {
+    .portfolio_modal-content {
         padding: 4.5rem 1.5rem 2.5rem;
     }
 
-    .services_modal-description {
+    .portfolio_modal-description {
         padding: 0;
     }
 }
 
 /* For small devices */
 @media screen and (max-width: 350px) {
-    .portfolio_container {
+    /* .portfolio_container {
         grid-template-columns: repeat(1, 1fr);
-        padding-left: 4rem;
+        padding-left: 2rem;
         /* grid-template-columns: max-content; */
         /* justify-content: center; */
-    } 
-    .services_content {
+      */
+    .portfolio_container {
+        grid-template-columns: 1fr;
+        row-gap: 3rem;
+        justify-content: center;
+    }
+    .portfolio_content {
         padding-right: 6rem;
     }
 }

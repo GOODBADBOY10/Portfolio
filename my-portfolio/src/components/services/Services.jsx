@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import './services.css'
-import {FaArrowRight, FaCircle, FaTimes, FaTwitter} from 'react-icons/fa'
+import {FaArrowRight, FaBriefcase, FaCircle, FaOptinMonster, FaPeace, FaPenNib, FaPlayCircle, FaRegPlayCircle, FaTimes, FaTwitter, FaWeebly} from 'react-icons/fa'
 
 const Services = () => {
   const [toggleState, setToggleState] = useState(0)
@@ -18,8 +18,8 @@ const Services = () => {
                 <div className='services_content'>
 
                     <div>
-                        <FaTwitter  className='services_icon' />
-                        <h3 className='services_title'>Web<br /> Developer</h3>
+                        <FaWeebly className='services_icon' />
+                        <h3 className='services_title'>Web<br /> Development</h3>
                     </div>
 
                     <span className='services_button' onClick={() => toggleTab(1)}>View More 
@@ -29,25 +29,25 @@ const Services = () => {
                       <div className='services_modal-content'>
                         <FaTimes  className='services_modal-close' onClick={() => toggleTab(0)} />
 
-                        <h3 className='services_modal-title'>Web Developer</h3>
+                        <h3 className='services_modal-title'>Web Development</h3>
                         <p className='services_modal-description'>
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae, alias.</p>
+                        As a frontend developer, i can offer the following services</p>
 
                         <ul className='services_modal-services grid'>
 
                           <li className='services_modal-service'>
                             <FaCircle className='services_modal-icon' />
-                            <p className='services_modal-info'>I develop the user interface</p>
+                            <p className='services_modal-info'>I design intuitive and visual appealing interfaces</p>
                           </li>
 
                           <li className='services_modal-service'>
                             <FaCircle className='services_modal-icon' />
-                            <p className='services_modal-info'>I develop the user interface</p>
+                            <p className='services_modal-info'>I improve website usability and accessibility</p>
                           </li>
 
                           <li className='services_modal-service'>
                             <FaCircle className='services_modal-icon' />
-                            <p className='services_modal-info'>I develop the user interface</p>
+                            <p className='services_modal-info'>I create responsive websites that <br /> adapt to various screen sizes and devices</p>
                           </li>
                         </ul>
                       </div>
@@ -57,8 +57,8 @@ const Services = () => {
                 <div className='services_content'>
 
 <div>
-    <FaTwitter  className='services_icon' />
-    <h3 className='services_title'>Problem Solving</h3>
+    <FaPenNib  className='services_icon' />
+    <h3 className='services_title'>Web Performance Optimization</h3>
 </div>
 
 <span className='services_button' onClick={() => toggleTab(2)}>View More 
@@ -67,25 +67,25 @@ const Services = () => {
                       <div className='services_modal-content'>
                         <FaTimes  className='services_modal-close' onClick={() => toggleTab(0)} />
 
-    <h3 className='services_modal-title'>Problem Solving </h3>
+    <h3 className='services_modal-title'>Web Development</h3>
     <p className='services_modal-description'>
-    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae, alias.</p>
+    I also offer the following services </p>
 
     <ul className='services_modal-services grid'>
 
       <li className='services_modal-service'>
         <FaCircle className='services_modal-icon' />
-        <p className='services_modal-info'>I develop the user interface</p>
+        <p className='services_modal-info'>I build fast and seamless SPAs <br />using frameworks like REACT</p>
       </li>
 
       <li className='services_modal-service'>
         <FaCircle className='services_modal-icon' />
-        <p className='services_modal-info'>I develop the user interface</p>
+        <p className='services_modal-info'>I create fast web applications</p>
       </li>
 
       <li className='services_modal-service'>
         <FaCircle className='services_modal-icon' />
-        <p className='services_modal-info'>I develop the user interface</p>
+        <p className='services_modal-info'>I ensure websites meet <br /> accessibility standards and guidelines</p>
       </li>
     </ul>
   </div>
@@ -95,7 +95,7 @@ const Services = () => {
                 <div className='services_content'>
 
 <div>
-    <FaTwitter  className='services_icon' />
+    <FaPeace  className='services_icon' />
     <h3 className='services_title'>Team Player</h3>
 </div>
 
@@ -107,23 +107,23 @@ const Services = () => {
 
     <h3 className='services_modal-title'>Team Player</h3>
     <p className='services_modal-description'>
-    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae, alias.</p>
+    I am aslo a team player who can work efficiently with different team</p>
 
     <ul className='services_modal-services grid'>
 
       <li className='services_modal-service'>
         <FaCircle className='services_modal-icon' />
-        <p className='services_modal-info'>I develop the user interface</p>
+        <p className='services_modal-info'>I manage code repositories using Git</p>
       </li>
 
       <li className='services_modal-service'>
         <FaCircle className='services_modal-icon' />
-        <p className='services_modal-info'>I develop the user interface</p>
+        <p className='services_modal-info'>I implement security best practices</p>
       </li>
 
       <li className='services_modal-service'>
         <FaCircle className='services_modal-icon' />
-        <p className='services_modal-info'>I develop the user interface</p>
+        <p className='services_modal-info'>I debug front-end code <br/> using various testing frameworks</p>
       </li>
     </ul>
   </div>

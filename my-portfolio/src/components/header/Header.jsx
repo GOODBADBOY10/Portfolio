@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import './header.css';
-import {FaHome, FaTimes, FaAppStore, FaLaptopMedical, FaServicestack} from 'react-icons/fa'
+import {FaHome, FaTimes, FaAppStore, FaLaptopMedical, FaServicestack, FaEnvelope, FaBriefcase, FaFileAlt, FaUser} from 'react-icons/fa'
 
 const Header = () => {
 // chsnge background header
@@ -37,7 +37,8 @@ const Header = () => {
                 <a href='#about'
                  onClick={() => setActiveNav('#about')}
                   className={activeNav === '#about' ? 'nav_link active-link' : 'nav_link'}>
-                  <i className='uil uil-user nav_icon'></i>About
+                  <FaUser className='nav_icon'/>
+                  About
                 </a>
               </li>
 
@@ -45,7 +46,7 @@ const Header = () => {
                 <a href='#skills'  
                 onClick={() => setActiveNav('#skills')} 
                 className={activeNav === '#skills' ? 'nav_link active-link' : 'nav_link'}>
-                  <i className='uil uil-file-alt nav_icon'></i>Skills
+                  <FaFileAlt className='nav_icon'/>Skills
                 </a>
               </li>
 
@@ -53,7 +54,7 @@ const Header = () => {
                 <a href='#services' 
                  onClick={() => setActiveNav('#services')} 
                  className={activeNav === '#services' ? 'nav_link active-link' : 'nav_link'}>
-                  <i className='uil uil-briefcase-alt nav_icon'></i>Services
+                  <FaBriefcase className='nav_icon' />Services
                 </a>
               </li>
 
@@ -61,7 +62,7 @@ const Header = () => {
                 <a href='#portfolio' 
                  onClick={() => setActiveNav('#portfolio')}
                   className={activeNav === '#portfolio' ? 'nav_link active-link' : 'nav_link'}>
-                  <i className='uil uil-scenery nav_icon'></i>Portfolio
+                  <FaServicestack className='nav_icon'/>Portfolio
                 </a>
               </li>
 
@@ -69,7 +70,8 @@ const Header = () => {
                 <a href='#contact' 
                  onClick={() => setActiveNav('#contact')} 
                 className={activeNav === '#contact' ? 'nav_link active-link' : 'nav_link'}>
-                  <i className='uil uil-message nav_icon'></i>Contact
+                  <FaEnvelope className='nav_icon' />
+                  Contact
                 </a>
               </li>
             </ul>

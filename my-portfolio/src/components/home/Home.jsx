@@ -12,7 +12,7 @@ const Home = () => {
             <div className='home_content grid'>
                 <Social />
 
-                <div className=" home_img bg-[url('./ademola.jpg')]"></div>
+                <div className=" home_img bg-[url('./IDAN.jpg')]"></div>
 
                 <Data />
             </div>

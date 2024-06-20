@@ -17,7 +17,7 @@ function App() {
     <>
       <Header />
 
-      <main className='main'>
+      <main className='main px-2'>
         <Home />
         <About />
         <Skills />

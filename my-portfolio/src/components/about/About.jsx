@@ -11,7 +11,7 @@ const About = () => {
         <h4 className='about_subtitle'>My Introduction</h4>
 
         <div className='about_container container grid'>
-            <img src='./ademola.jpg' alt='' className='about_img' />
+            <img src='./idan2.jpg' alt='' className='about_img' />
 
             <div className='about_data'>
                 <Info />
