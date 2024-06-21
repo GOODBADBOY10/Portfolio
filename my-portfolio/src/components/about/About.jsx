@@ -17,13 +17,14 @@ const About = () => {
                 <Info />
 
                 <p className='about_description'>I am an experienced frontend developer who is proficient in the use of <strong>HTML, CSS, BOOTSTRAP, TAILWIND, JAVASCRIPT, REACT </strong> and other various frontend libaries for developing scalable and responsive web applications.
-                 I always strive to write clean, maintainable code that adhere to best practices and industry standards.
-                  I collaborate efectively with cross functional teams and i am passionate about learning new technologies and staying current with industry threads.
+                 I always strive to write clean, maintainable code that adhere to best practices and industry standards. </p>
+                <p className='about_description'>I collaborate efectively with cross functional teams and i am passionate about learning new technologies and staying current with industry threads.
                 I feel confident that my skills set and dedication will enable meto become and asset to your organization or project.</p>
 
-                <a Download='' href='./IDRIS ADEMOLA Resume.docx'
-                 className='button button--flex flex items-center w-48'>Download CV
-                <FaDownload className='ml-2'/>
+                <a Download='' 
+                href='./IDRIS ADEMOLA Resume.docx'
+                 className='about_button button button--flex flex items-center justify-between mt-2 w-48'>Download CV
+                <FaDownload className=''/>
                 </a>
 
             </div>

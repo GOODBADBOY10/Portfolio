@@ -133,4 +133,7 @@
     .nav_list {
         column-gap: 0;
     }
+    .nav_logo {
+        padding-left: 10px;
+    }
 }

@@ -5,8 +5,8 @@
 }
 
 .about_img {
-    width: 370px;
-    height: 430px;
+    width: 50%;
+    height: 80%;
     border-radius: 1.5rem;
     justify-self: center;
 }
@@ -48,7 +48,7 @@
 
 .about_description {
     padding: 0 4rem 0 0;
-    margin-bottom: var(--mb-2-5);
+    margin-bottom: var(--mb-1-5);
 }
 
 
@@ -79,7 +79,7 @@
 
     .about_description {
         padding: 0 5rem;
-        margin-bottom: 2rem;
+        margin-bottom: 1rem;
     }
 }
 
@@ -102,4 +102,12 @@
     .about_info {
         grid-template-columns: repeat(1, 0.8fr);
     }
+    .about_img {
+        width: 200px;
+        height: 280px;
+    }
+    .about_button {
+        width: 160px;
+    }
+
 }

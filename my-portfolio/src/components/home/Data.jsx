@@ -5,7 +5,7 @@ const Data = () => {
   return (
     <div className='home_data'>
       <h1 className='home_title flex items-center'>IDRIS ADEMOLA
-      <FaHandshake className='home_hand' />
+      {/* <FaHandshake className='home_hand' /> */}
       <i class='fa-light fa-hand-wave'></i>
       </h1>
       <h3 className='home_subtitle'>FRONTEND DEVELOPER</h3>

@@ -1,7 +1,7 @@
 import React, { useRef } from 'react';
 import emailjs from '@emailjs/browser';
 import './contact.css'
-import { FaArrowRight, FaEnvelope, FaPlane, FaSave, FaTwitter, FaVoicemail, FaWhatsapp } from 'react-icons/fa'
+import { FaArrowRight, FaEnvelope, FaPlane, FaSave, FaTelegram, FaTelegramPlane, FaTwitter, FaVoicemail, FaWhatsapp } from 'react-icons/fa'
 
 const Contact = () => {
   const form = useRef();
@@ -90,7 +90,7 @@ const Contact = () => {
 
               <button href='#contact' className='button button--flex flex items-center'>
         Send Message
-        <FaPlane className='ml-3' />
+        <FaTelegramPlane className='ml-3' />
       </button>
 
             </form>
