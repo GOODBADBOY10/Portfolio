@@ -118,6 +118,10 @@
     .nav_toggle {
         display: block;
     }
+    .nav_logo {
+        padding-left: 10px;
+        margin-left: 20px;
+    }
 }
 
 /* For small devices */
@@ -135,5 +139,6 @@
     }
     .nav_logo {
         padding-left: 10px;
+        margin-left: 20px;
     }
 }
