@@ -17,7 +17,24 @@ const Portfolio = () => {
                     <h4 className='ml-2'>Tailwindcss</h4>
                     <h4 className='ml-2'>CSS</h4>
                 </div>
-                <a href='https://t.co/yBhX6yPZ4k' target='_blank' className='text-base font-medium hover:text-blue-500'>Source live</a>
+              <div className='flex items-center'>
+              <a href='https://t.co/yBhX6yPZ4k' target='_blank' className='text-base font-medium hover:text-blue-500'>Source</a>
+              <a href='https://t.co/yBhX6yPZ4k' target='_blank' className='ml-3 text-base font-medium hover:text-green-500'>Live</a>
+              </div>
+            </div>
+            <div>
+            <img src='./coffe2.jpeg' className='bx-badge-check w-48 h-60' />
+                <h2 className='text-lg font-bold'>Coffe Website</h2>
+                <p className='text-base font-medium'>A Coffe shop website</p>
+                <div className='flex items-center'>
+                    <h4 className=''>HTML</h4>
+                    <h4 className='ml-2'>Tailwindcss</h4>
+                    <h4 className='ml-2'>CSS</h4>
+                </div>
+                <div className='flex items-center'>
+                <a href='https://github.com/GOODBADBOY10/Coffe' target='_blank' className='text-base font-medium hover:text-blue-500'>Source</a>
+                <a href='https://t.co/Bo4wXTG2jd' target='_blank' className='text-base ml-3 font-medium hover:text-green-500'>Live</a>
+                </div> 
             </div>
             <div>
             <img src='./goal.jpg' className='bx-badge-check w-48 h-60' />
@@ -28,18 +45,10 @@ const Portfolio = () => {
                     <h4 className='ml-2'>Tailwindcss</h4>
                     <h4 className='ml-2'>CSS</h4>
                 </div>
-                <a href='https://t.co/yBhX6yPZ4k' target='_blank' className='text-base font-medium hover:text-blue-500'>Source live</a>
-            </div>
-            <div>
-            <img src='./goal.jpg' className='bx-badge-check w-48 h-60' />
-                <h2 className='text-lg font-bold'>Goal App</h2>
-                <p className='text-base font-medium'>A goal setting app</p>
-                <div className='flex items-center'>
-                    <h4 className=''>React</h4>
-                    <h4 className='ml-2'>Tailwindcss</h4>
-                    <h4 className='ml-2'>CSS</h4>
+                <div>
+                <a href='https://t.co/yBhX6yPZ4k' target='_blank' className='text-base font-medium hover:text-blue-500'>Source</a>
+                <a href='https://t.co/yBhX6yPZ4k' target='_blank' className='ml-3 text-base font-medium hover:text-green-500'>Live</a>
                 </div>
-                <a href='https://t.co/yBhX6yPZ4k' target='_blank' className='text-base font-medium hover:text-blue-500'>Source live</a>
             </div>
         </div>
       </section>
