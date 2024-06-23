@@ -37,17 +37,17 @@ const Portfolio = () => {
                 </div> 
             </div>
             <div>
-            <img src='./goal.jpg' className='bx-badge-check w-48 h-60' />
-                <h2 className='text-lg font-bold'>Goal App</h2>
-                <p className='text-base font-medium'>A goal setting app</p>
+            <img src='./plants.jpeg' className='bx-badge-check w-48 h-60' />
+                <h2 className='text-lg font-bold'>A Plant Website</h2>
+                <p className='text-base font-medium'>A clone Plant website</p>
                 <div className='flex items-center'>
-                    <h4 className=''>React</h4>
-                    <h4 className='ml-2'>Tailwindcss</h4>
+                    <h4 className=''>JavaScript</h4>
+                    <h4 className='ml-2'>HTML</h4>
                     <h4 className='ml-2'>CSS</h4>
                 </div>
                 <div>
-                <a href='https://t.co/yBhX6yPZ4k' target='_blank' className='text-base font-medium hover:text-blue-500'>Source</a>
-                <a href='https://t.co/yBhX6yPZ4k' target='_blank' className='ml-3 text-base font-medium hover:text-green-500'>Live</a>
+                <a href='https://github.com/GOODBADBOY10/plants' target='_blank' className='text-base font-medium hover:text-blue-500'>Source</a>
+                <a href='https://t.co/TLeWWhOWaD' target='_blank' className='ml-3 text-base font-medium hover:text-green-500'>Live</a>
                 </div>
             </div>
         </div>
