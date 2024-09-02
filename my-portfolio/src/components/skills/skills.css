@@ -1,8 +1,12 @@
 .skills_container {
-    display: grid;
-    grid-template-columns: repeat(2, 450px);
+    display: flex;
+    /* grid-template-columns: repeat(2, 450px);
     column-gap: 3rem;
+    justify-content: center; */
+    align-items: center;
     justify-content: center;
+    gap: 35px;
+    padding: 2px 5px;
 }
 
 .skills_content {
@@ -26,8 +30,8 @@
 }
 .skills_group {
     display: grid;
-    grid-template-columns: repeat(4, 40px);
-    column-gap: 5rem;
+    grid-template-columns: repeat(4, 30px);
+    column-gap: 3rem;
     justify-content: center;
     row-gap: 2rem;
 }
@@ -78,11 +82,9 @@
 /* For small devices */
 @media screen and (max-width: 350px) { 
     .skills_container {
-        /* grid-template-columns: 0.9fr; */
-        display: flex;
-        align-items: center;
-        flex-direction: column;
-        justify-content: center;
+       display: grid;
+       grid-template-columns: repeat(1, 100px);
+       justify-content: center;
     }
     .skills_box {
         column-gap: 1.25rem;
@@ -92,9 +94,9 @@
     }
     .skills_group {
         display: grid;
-        grid-template-columns: repeat(3, 55px);
+        grid-template-columns: repeat(3, 30px);
         column-gap: 2rem;
         justify-content: center;
-        row-gap: 2rem;
+        row-gap: 1rem;
     }
 }

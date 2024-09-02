@@ -14,12 +14,16 @@ const Services = () => {
         <h2 className='section_title'>Services</h2>
         <h4 className='section_subtitle'>What i offer</h4>
 
-        <div className='services_container container grid'>
+        <div 
+        className='services_container 
+        container flex flex-col mx-auto 
+        justify-center items-center 
+        md:flex-row gap-10'>
                 <div className='services_content'>
 
-                    <div>
+                    <div className=''>
                         <FaWeebly className='services_icon' />
-                        <h3 className='services_title'>Web<br /> Development</h3>
+                        <h3 className='services_title'>Web Development</h3>
                     </div>
 
                     <span className='services_button' onClick={() => toggleTab(1)}>View More 

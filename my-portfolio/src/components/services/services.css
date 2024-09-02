@@ -9,6 +9,7 @@
     border: 1px solid rgba(0, 0, 0, 0.1);
     padding: 6rem 0 2rem 2.5rem;
     background-color: var(--container-color);
+    width: 70%;
 }
 
 .services_icon {
@@ -153,13 +154,9 @@
 /* For small devices */
 @media screen and (max-width: 350px) {
     .services_container {
-        /* display: grid;
+        display: grid;
         grid-template-columns: repeat(1, 270px);
-        justify-content: center; */
-        display: flex;
-        align-items: center;
         justify-content: center;
-        flex-direction: column;
     } 
     .services_content {
         padding-left: 3rem;

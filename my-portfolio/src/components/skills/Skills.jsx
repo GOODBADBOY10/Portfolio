@@ -10,7 +10,7 @@ const Skills = () => {
         <h2 className='skills_title'>Skills</h2>
         <h4 className='skills_subtitle text-center text-base mb-4'>My Technical Level</h4>
 
-        <div className='skills_container container grid'>
+        <div className='skills_container flex flex-col md:flex-row'>
 
             <Frontend />
 
