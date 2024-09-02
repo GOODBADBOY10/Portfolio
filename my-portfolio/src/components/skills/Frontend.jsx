@@ -29,39 +29,39 @@ const Frontend = () => {
             </div>
 
             <div className='skills_data'>
-            <img src='./css.png' className='bx-badge-check w-10 h-10' />
+            <img src='./ts.png' className='bx-badge-check w-10 h-10' />
                 <div>
-                    <h3 className='skills_name'>CSS</h3>
+                    <h3 className='skills_name'>Typescript</h3>
                 </div>
             </div>
 
 
             <div className='skills_data'>
-            <img src='./css.png' className='bx-badge-check w-10 h-10' />
+            <img src='./next.png' className='bx-badge-check w-10 h-10' />
                 <div>
-                    <h3 className='skills_name'>CSS</h3>
+                    <h3 className='skills_name'>Next.js</h3>
                 </div>
             </div>
 
             <div className='skills_data'>
-            <img src='./css.png' className='bx-badge-check w-10 h-10' />
+            <img src='./node1.png' className='bx-badge-check w-10 h-10' />
                 <div>
-                    <h3 className='skills_name'>CSS</h3>
+                    <h3 className='skills_name'>Nodejs</h3>
                 </div>
             </div>
 
 
             <div className='skills_data'>
-            <img src='./css.png' className='bx-badge-check w-10 h-10' />
+            <img src='./git.png' className='bx-badge-check w-10 h-10' />
                 <div>
-                    <h3 className='skills_name'>CSS</h3>
+                    <h3 className='skills_name'>Git</h3>
                 </div>
             </div>
 
             <div className='skills_data'>
-            <img src='./css.png' className='bx-badge-check w-10 h-10' />
+            <img src='./github.png' className='bx-badge-check w-10 h-10' />
                 <div>
-                    <h3 className='skills_name'>CSS</h3>
+                    <h3 className='skills_name'>Github</h3>
                 </div>
             </div>
 

@@ -35,43 +35,36 @@ const Backend = () => {
               </div>
           </div>
 
-          
-      </div>
-      {/* <div className='skills_group'>
           <div className='skills_data'>
-              <i class='' bx bx-badge-check></i>
+              <img src='./redux.png' className='bx bx-badge-check w-6 h-6' />
               <div>
-                  <h3 className='skills_name'>HTML</h3>
-                  <span className='skills_level'>Basic</span>
+                  <h3 className='skills_name'>Redux</h3>
               </div>
           </div>
 
           <div className='skills_data'>
-              <i class='' bx bx-badge-check></i>
+              <img src='./flowbite.jpg' className='bx bx-badge-check w-6 h-6' />
               <div>
-                  <h3 className='skills_name'>CSS</h3>
-                  <span className='skills_level'>Advanced</span>
+                  <h3 className='skills_name'>Flowbite</h3>
               </div>
           </div>
 
           <div className='skills_data'>
-              <i class='' bx bx-badge-check></i>
+              <img src='./express.jpg' className='bx bx-badge-check w-6 h-6' />
               <div>
-                  <h3 className='skills_name'>JavaScript</h3>
-                  <span className='skills_level'>Intermediate</span>
+                  <h3 className='skills_name'>Express</h3>
               </div>
           </div>
 
           <div className='skills_data'>
-              <i class='' bx bx-badge-check></i>
+              <img src='./mongo.png' className='bx bx-badge-check w-6 h-6' />
               <div>
-                  <h3 className='skills_name'>Tailwind</h3>
-                  <span className='skills_level'>Intermediate</span>
+                  <h3 className='skills_name'>MongoDB</h3>
               </div>
-          </div> 
-      </div> */}
+          </div>
+
     </div>
-
+</div>
 
   </div>
   )

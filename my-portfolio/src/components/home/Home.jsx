@@ -14,7 +14,7 @@ const Home = () => {
 
 
                 <div className='md:order-1'>
-                  <img src='./IDAN.jpg' alt='my-image'
+                  <img src='./idan2.jpg' alt='my-image'
                    className='h-72 w-72 home_img' 
                   />
                 </div>
