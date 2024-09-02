@@ -12,9 +12,16 @@ const Home = () => {
             <div className='home_content grid'>
                 <Social />
 
-                <div className=" home_img bg-[url('./IDAN.jpg')]
+
+                <div className='md:order-1'>
+                  <img src='./IDAN.jpg' alt='my-image'
+                   className='h-72 w-72 home_img' 
+                  />
+                </div>
+
+                {/* <div className="home_img bg-[url('./IDAN.jpg')]
                  bg-center bg-no-repeat bg-cover order-1
-                  justify-self-center w-72 h-72"></div>
+                  justify-self-center w-72 h-72"></div> */}
 
                 <Data />
             </div>

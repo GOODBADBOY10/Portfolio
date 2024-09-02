@@ -8,26 +8,60 @@ const Frontend = () => {
       <div className='skills_box'>
         <div className='skills_group'>
             <div className='skills_data'>
-                <img src='./html.png' className='bx-badge-check w-6 h-6' />
+                <img src='./html.png' className='bx-badge-check w-10 h-10' />
                 <div>
                     <h3 className='skills_name'>HTML</h3>
-                    <span className='skills_level'>Advanced</span>
                 </div>
             </div>
 
             <div className='skills_data'>
-            <img src='./css.png' className='bx-badge-check w-6 h-6' />
+            <img src='./css.png' className='bx-badge-check w-10 h-10' />
                 <div>
                     <h3 className='skills_name'>CSS</h3>
-                    <span className='skills_level'>Advanced</span>
                 </div>
             </div>
 
             <div className='skills_data'>
-            <img src='./javascript.png' className='bx-badge-check w-6 h-6' />
+            <img src='./javascript.png' className='bx-badge-check w-10 h-10' />
                 <div>
                     <h3 className='skills_name'>JavaScript</h3>
-                    <span className='skills_level'>Intermediate</span>
+                </div>
+            </div>
+
+            <div className='skills_data'>
+            <img src='./css.png' className='bx-badge-check w-10 h-10' />
+                <div>
+                    <h3 className='skills_name'>CSS</h3>
+                </div>
+            </div>
+
+
+            <div className='skills_data'>
+            <img src='./css.png' className='bx-badge-check w-10 h-10' />
+                <div>
+                    <h3 className='skills_name'>CSS</h3>
+                </div>
+            </div>
+
+            <div className='skills_data'>
+            <img src='./css.png' className='bx-badge-check w-10 h-10' />
+                <div>
+                    <h3 className='skills_name'>CSS</h3>
+                </div>
+            </div>
+
+
+            <div className='skills_data'>
+            <img src='./css.png' className='bx-badge-check w-10 h-10' />
+                <div>
+                    <h3 className='skills_name'>CSS</h3>
+                </div>
+            </div>
+
+            <div className='skills_data'>
+            <img src='./css.png' className='bx-badge-check w-10 h-10' />
+                <div>
+                    <h3 className='skills_name'>CSS</h3>
                 </div>
             </div>
 

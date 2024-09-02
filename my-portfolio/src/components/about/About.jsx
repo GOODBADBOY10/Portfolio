@@ -21,12 +21,13 @@ const About = () => {
                 <p className='about_description'>I collaborate efectively with cross functional teams and i am passionate about learning new technologies and staying current with industry threads.
                 I feel confident that my skills set and dedication will enable meto become and asset to your organization or project.</p>
 
+                <div className='about_button button flex items-center justify-between mx-auto mt-2 w-48'>
                 <a Download='' 
                 href='./IDRIS ADEMOLA Resume.docx'
-                 className='about_button button button--flex flex items-center justify-between mt-2 w-48'>Download CV
-                <FaDownload className=''/>
+                 className=''>Download CV
                 </a>
-
+                <FaDownload className=''/>
+                </div>
             </div>
         </div>
       </section>

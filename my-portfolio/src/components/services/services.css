@@ -153,9 +153,9 @@
 /* For small devices */
 @media screen and (max-width: 350px) {
     .services_container {
-        grid-template-columns: repeat(1, 118px);
-        display: flex;
-        flex-direction: column;
+        display: grid;
+        grid-template-columns: repeat(1, 270px);
+        justify-content: center;
     } 
     .services_content {
         padding-left: 3rem;

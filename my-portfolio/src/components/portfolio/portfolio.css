@@ -40,9 +40,10 @@
         /* justify-content: center; */
       */
     .portfolio_container {
-        grid-template-columns: 1fr;
-        row-gap: 3rem;
-        justify-content: center;
+        column-gap: 20px;
+        display: grid;
+        grid-template-columns: repeat(1fr);
+        background-color: red;
     }
     .portfolio_content {
         padding-right: 6rem;
