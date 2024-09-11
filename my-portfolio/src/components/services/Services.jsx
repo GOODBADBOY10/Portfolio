@@ -35,7 +35,7 @@ const Services = () => {
 
                         <h3 className='services_modal-title'>Web Development</h3>
                         <p className='services_modal-description'>
-                        As a frontend developer, i can offer the following services</p>
+                        As a fullstack developer, i can offer the following services</p>
 
                         <ul className='services_modal-services grid'>
 
@@ -52,6 +52,18 @@ const Services = () => {
                           <li className='services_modal-service'>
                             <FaCircle className='services_modal-icon' />
                             <p className='services_modal-info'>I create responsive websites that <br /> adapt to various screen sizes and devices</p>
+                          </li>
+                          <li className='services_modal-service'>
+                            <FaCircle className='services_modal-icon' />
+                            <p className='services_modal-info'>I ensure application security and performance</p>
+                          </li>
+                          <li className='services_modal-service'>
+                            <FaCircle className='services_modal-icon' />
+                            <p className='services_modal-info'>Writing server side logic and integrating with database</p>
+                          </li>
+                          <li className='services_modal-service'>
+                            <FaCircle className='services_modal-icon' />
+                            <p className='services_modal-info'>Writing unit tests and integration tests<br /> adapt to various screen sizes and devices</p>
                           </li>
                         </ul>
                       </div>
@@ -85,6 +97,11 @@ const Services = () => {
       <li className='services_modal-service'>
         <FaCircle className='services_modal-icon' />
         <p className='services_modal-info'>I create fast web applications</p>
+      </li>
+
+      <li className='services_modal-service'>
+        <FaCircle className='services_modal-icon' />
+        <p className='services_modal-info'>I ensure the application is scalable and secure</p>
       </li>
 
       <li className='services_modal-service'>
@@ -127,7 +144,7 @@ const Services = () => {
 
       <li className='services_modal-service'>
         <FaCircle className='services_modal-icon' />
-        <p className='services_modal-info'>I debug front-end code <br/> using various testing frameworks</p>
+        <p className='services_modal-info'>I debug code using various testing frameworks</p>
       </li>
     </ul>
   </div>

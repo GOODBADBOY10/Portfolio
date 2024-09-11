@@ -8,13 +8,12 @@ const Data = () => {
       {/* <FaHandshake className='home_hand' /> */}
       <i class='fa-light fa-hand-wave'></i>
       </h1>
-      <h3 className='home_subtitle'>FRONTEND DEVELOPER</h3>
+      <h3 className='home_subtitle'>FULLSTACK DEVELOPER</h3>
       <p className='home_description'>Hello!, My name is ADEMOLA IDRIS.
-       I am a highly motivated frontend developer with a strong enthusiasm 
-       for transforming ideas into captivating web experiences.
-        I embrace the philosophy of creating digital solutions 
-        that not only overcome but also provoke surprise. 
-        I am here to bring ideas to life.</p>
+       I am a highly motivated fullstack developer who can handle all the layers of an application
+       from the user interface to the server side logic and database integration.
+       I have experience in building complex applications with modern technologies.
+       I enjoy creating thhings that work on the web.</p>
       <a href='#contact' className='button button--flex flex items-center w-36'>
         Say Hello
         <FaPhone className='ml-1' />
